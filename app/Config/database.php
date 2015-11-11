@@ -97,7 +97,7 @@ class DATABASE_CONFIG {
 	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
 	           $this->default['login']      = 'adminFjLwtJr';
 	           $this->default['password']   = 'IaanyVHlMExF';
-	           $this->default['database']   = getenv("OPENSHIFT_APP_NAME");
+	           $this->default['database']   = 'srb';
 	       else:
 	           $this->default['host']       = 'localhost';
 	           //$this->default['port']       = getenv("OPENSHIFT_POSTGRESQL_DB_PORT");
