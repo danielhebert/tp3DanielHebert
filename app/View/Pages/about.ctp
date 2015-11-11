@@ -18,58 +18,15 @@
 		
 		<div class="panel panel-primary">
 			<div class="panel-heading">
-				<h3 class="panel-title">Informations générales</h3>
+				<h3 class="panel-title">Concept</h3>
 			</div>
 			<div class="panel-body">
-			
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Concept</h3>
-					</div>
-					<div class="panel-body">
-						<p>SpeedrunBreakdown agit un peu comme un wiki et un site de classement. Un utilisateur confirmé peut créer un tutoriel, qu'il divisera par la suite en segments. 
-						N'importe quel utilisateur peut ensuite soumettre un temps à ces segments, soit le temps mis pour compléter cette section du tutoriel.
-						</p>
-						<p>
-						On regroupe donc l'information sur les meilleures stratégies tout en créant un environnement de compétition pour les joueurs les plus acharnés.
-						</p>
-					</div>
-				</div>
-				
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Pour tester l'application localement</h3>
-					</div>
-					<div class="panel-body">
-						<ol>
-							<li>Créer la base de données speedrunbreakdown en ut8_unicode_ci</li>
-							<li>Importer speedrunbreakdown.sql qui se trouve dans le dossier «bd»</li>
-						</ol>
-					</div>
-				</div>
-
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Utilisateurs par défaut</h3>
-					</div>
-					<div class="panel-body">
-						<table class="table table-striped">
-							<thead><th>Nom</th><th>Mot de passe</th></thead>
-							<tbody>
-								<tr>
-									<td>admin</td><td>admin</td>
-								</tr>
-								<tr>
-									<td>auteur</td><td>auteur</td>
-								</tr>
-								<tr>
-									<td>auteur2</td><td>auteur</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-				
+                            <p>SpeedrunBreakdown agit un peu comme un wiki et un site de classement. Un utilisateur confirmé peut créer un tutoriel, qu'il divisera par la suite en segments. 
+                            N'importe quel utilisateur peut ensuite soumettre un temps à ces segments, soit le temps mis pour compléter cette section du tutoriel.
+                            </p>
+                            <p>
+                            On regroupe donc l'information sur les meilleures stratégies tout en créant un environnement de compétition pour les joueurs les plus acharnés.
+                            </p>			
 			</div>
 		</div>
 		
