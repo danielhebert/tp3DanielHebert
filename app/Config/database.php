@@ -69,7 +69,6 @@
 
 class DATABASE_CONFIG {
         public $default = array(
-                'datasource' => 'Database/Mysql',
                 'persistent' => false,
                 'host'       => '',
                 'port'       => '',
@@ -91,7 +90,7 @@ class DATABASE_CONFIG {
                 //'encoding' => 'utf8',
         );
 	public function __construct() {
-               if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
+            if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
 	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
 	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
 	           $this->default['login']      = getenv("OPENSHIFT_MYSQL_DB_USERNAME");
@@ -103,6 +102,7 @@ class DATABASE_CONFIG {
 	           $this->default['login']      = 'root';
 	           $this->default['password']   = 'mysql';
 	           $this->default['database']   = 'speedrunbreakdown';
+	           $this->default['datasource']   = 'Database/Mysql';
 	       endif;
 	}
 }
