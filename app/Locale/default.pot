@@ -1,0 +1,1002 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AppController.php:72
+msgid "This action is not authorized"
+msgstr ""
+
+#: Controller/ExploitsController.php:37;72;103
+msgid "Invalid exploit"
+msgstr ""
+
+#: Controller/ExploitsController.php:52;76
+msgid "The exploit has been saved"
+msgstr ""
+
+#: Controller/ExploitsController.php:55;79
+msgid "The exploit could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ExploitsController.php:106
+msgid "Exploit deleted"
+msgstr ""
+
+#: Controller/ExploitsController.php:109
+msgid "Exploit was not deleted"
+msgstr ""
+
+#: Controller/ExploitsTutorialsController.php:37;73;105
+msgid "Invalid exploits tutorial"
+msgstr ""
+
+#: Controller/ExploitsTutorialsController.php:52;77
+msgid "The exploits tutorial has been saved"
+msgstr ""
+
+#: Controller/ExploitsTutorialsController.php:55;80
+msgid "The exploits tutorial could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ExploitsTutorialsController.php:108
+msgid "Exploits tutorial deleted"
+msgstr ""
+
+#: Controller/ExploitsTutorialsController.php:111
+msgid "Exploits tutorial was not deleted"
+msgstr ""
+
+#: Controller/GamesController.php:38;71;100
+msgid "Invalid game"
+msgstr ""
+
+#: Controller/GamesController.php:53;75
+msgid "The game has been saved"
+msgstr ""
+
+#: Controller/GamesController.php:56;78
+msgid "The game could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GamesController.php:103
+msgid "Game deleted"
+msgstr ""
+
+#: Controller/GamesController.php:106
+msgid "Game was not deleted"
+msgstr ""
+
+#: Controller/RolesController.php:37;70;99
+msgid "Invalid role"
+msgstr ""
+
+#: Controller/RolesController.php:52;74
+msgid "The role has been saved"
+msgstr ""
+
+#: Controller/RolesController.php:55;77
+msgid "The role could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RolesController.php:102
+msgid "Role deleted"
+msgstr ""
+
+#: Controller/RolesController.php:105
+msgid "Role was not deleted"
+msgstr ""
+
+#: Controller/SegmentsController.php:37;79;112
+msgid "Invalid segment"
+msgstr ""
+
+#: Controller/SegmentsController.php:53;83
+msgid "The segment has been saved"
+msgstr ""
+
+#: Controller/SegmentsController.php:56;86
+msgid "The segment could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SegmentsController.php:115
+msgid "Segment deleted"
+msgstr ""
+
+#: Controller/SegmentsController.php:118
+msgid "Segment was not deleted"
+msgstr ""
+
+#: Controller/TimesController.php:37;74;106
+msgid "Invalid time"
+msgstr ""
+
+#: Controller/TimesController.php:53;78
+msgid "The time has been saved"
+msgstr ""
+
+#: Controller/TimesController.php:56;81
+msgid "The time could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TimesController.php:109
+msgid "Time deleted"
+msgstr ""
+
+#: Controller/TimesController.php:112
+msgid "Time was not deleted"
+msgstr ""
+
+#: Controller/TutorialsController.php:40;88;132
+msgid "Invalid tutorial"
+msgstr ""
+
+#: Controller/TutorialsController.php:56;92
+msgid "The tutorial has been saved"
+msgstr ""
+
+#: Controller/TutorialsController.php:59;95
+msgid "The tutorial could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TutorialsController.php:135
+msgid "Tutorial deleted"
+msgstr ""
+
+#: Controller/TutorialsController.php:138
+msgid "Tutorial was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:43
+msgid "Account not activated. You won't be able to submit anything other than times."
+msgstr ""
+
+#: Controller/UsersController.php:43
+msgid "Resend confirmation e-mail"
+msgstr ""
+
+#: Controller/UsersController.php:50
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:78;144;175
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:96
+msgid "Your account is now activated."
+msgstr ""
+
+#: Controller/UsersController.php:98;208
+msgid "This account is already activated."
+msgstr ""
+
+#: Controller/UsersController.php:101
+msgid "This activation link is not valid."
+msgstr ""
+
+#: Controller/UsersController.php:124;148
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:127;151
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:178
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:181
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:205
+msgid "Confirmation email was correctly sent."
+msgstr ""
+
+#: Controller/VersionsController.php:37;72;103
+msgid "Invalid version"
+msgstr ""
+
+#: Controller/VersionsController.php:52;76
+msgid "The version has been saved"
+msgstr ""
+
+#: Controller/VersionsController.php:55;79
+msgid "The version could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/VersionsController.php:106
+msgid "Version deleted"
+msgstr ""
+
+#: Controller/VersionsController.php:109
+msgid "Version was not deleted"
+msgstr ""
+
+#: Plugin/i18n/Controller/TranslationsController.php:146
+msgid "The translation has been saved"
+msgstr ""
+
+#: Plugin/i18n/Controller/TranslationsController.php:167;190
+msgid "Translation saved"
+msgstr ""
+
+#: Plugin/i18n/Controller/TranslationsController.php:210
+msgid "Translation deleted"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:112
+msgid "Could not save the translation, please check your inputs."
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:134;171;215;237
+msgid "Invalid Translation"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:255
+msgid "You need to confirm to delete this Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_add.ctp:4
+msgid "Admin Add Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_add.ctp:17
+#: Plugin/i18n/View/Translations/admin_edit.ctp:19
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:26
+#: Plugin/i18n/View/Translations/admin_view.ctp:40
+msgid "List Translations"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:1
+msgid "Delete Translation \"%s\"?"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:3
+msgid "Be aware that your Translation and all associated data will be deleted if you confirm!"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:11
+msgid "Confirm"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:13
+msgid "You have to confirm."
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:14
+msgid "Continue"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_edit.ctp:4
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:4
+msgid "Admin Edit Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_edit.ctp:18
+#: Plugin/i18n/View/Translations/admin_index.ctp:70
+#: View/Exploits/index.ctp:27
+#: View/Exploits/view.ctp:70
+#: View/ExploitsTutorials/edit.ctp:9
+#: View/ExploitsTutorials/index.ctp:49
+#: View/Games/index.ctp:29
+#: View/Games/view.ctp:77
+#: View/Roles/index.ctp:27
+#: View/Roles/view.ctp:67
+#: View/Segments/index.ctp:37
+#: View/Segments/view.ctp:97
+#: View/Times/index.ctp:39
+#: View/Tutorials/index.ctp:49
+#: View/Tutorials/view.ctp:97;141
+#: View/Users/index.ctp:37
+#: View/Users/view.ctp:90
+#: View/Versions/index.ctp:33
+#: View/Versions/view.ctp:72
+msgid "Delete"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:22
+msgid "Submit"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:2
+msgid "Translations"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:6
+#: View/Exploits/index.ctp:38
+#: View/ExploitsTutorials/index.ctp:60
+#: View/Games/index.ctp:40
+#: View/Roles/index.ctp:38
+#: View/Segments/index.ctp:48
+#: View/Times/index.ctp:50
+#: View/Tutorials/index.ctp:60
+#: View/Users/index.ctp:48
+#: View/Versions/index.ctp:44
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:17
+msgid "Locale Name"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:20
+msgid "Model Name"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:23
+#: Plugin/i18n/View/Translations/admin_view.ctp:24
+msgid "Field"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:26
+#: Plugin/i18n/View/Translations/admin_view.ctp:29
+msgid "Content"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:28
+msgid "Search"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:40
+#: View/Exploits/index.ctp:17
+#: View/Exploits/view.ctp:53
+#: View/ExploitsTutorials/index.ctp:33
+#: View/Games/index.ctp:18
+#: View/Games/view.ctp:59
+#: View/Roles/index.ctp:17
+#: View/Roles/view.ctp:49
+#: View/Segments/index.ctp:21
+#: View/Segments/view.ctp:79
+#: View/Times/index.ctp:21
+#: View/Tutorials/index.ctp:23
+#: View/Tutorials/view.ctp:79;127
+#: View/Users/index.ctp:21
+#: View/Users/view.ctp:73
+#: View/Versions/index.ctp:19
+#: View/Versions/view.ctp:54
+msgid "Actions"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:67
+#: View/Exploits/index.ctp:25
+#: View/Exploits/view.ctp:68
+#: View/ExploitsTutorials/index.ctp:47
+#: View/Games/index.ctp:27
+#: View/Games/view.ctp:75
+#: View/Roles/index.ctp:25
+#: View/Roles/view.ctp:65
+#: View/Segments/index.ctp:35
+#: View/Segments/view.ctp:95
+#: View/Times/index.ctp:37
+#: View/Tutorials/index.ctp:47
+#: View/Tutorials/view.ctp:95;139
+#: View/Users/index.ctp:35
+#: View/Users/view.ctp:88
+#: View/Versions/index.ctp:31
+#: View/Versions/view.ctp:70
+msgid "View"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:68
+#: View/Exploits/index.ctp:26
+#: View/Exploits/view.ctp:69
+#: View/ExploitsTutorials/index.ctp:48
+#: View/Games/index.ctp:28
+#: View/Games/view.ctp:76
+#: View/Roles/index.ctp:26
+#: View/Roles/view.ctp:66
+#: View/Segments/index.ctp:36
+#: View/Segments/view.ctp:96
+#: View/Times/index.ctp:38
+#: View/Tutorials/index.ctp:48
+#: View/Tutorials/view.ctp:96;140
+#: View/Users/index.ctp:36
+#: View/Users/view.ctp:89
+#: View/Versions/index.ctp:32
+#: View/Versions/view.ctp:71
+msgid "Edit"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:69
+msgid "Edit All locales for this entry"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:80
+#: Plugin/i18n/View/Translations/admin_view.ctp:41
+msgid "New Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:2
+msgid "Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:4
+#: View/Exploits/view.ctp:15;47
+#: View/ExploitsTutorials/view.ctp:33
+#: View/Games/view.ctp:15;52
+#: View/Roles/view.ctp:15;42
+#: View/Segments/view.ctp:15;72
+#: View/Times/view.ctp:15
+#: View/Tutorials/view.ctp:15;72;124
+#: View/Users/view.ctp:15;67
+#: View/Versions/view.ctp:15;47
+msgid "Id"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:9
+msgid "Locale"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:14
+msgid "Model"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:19
+msgid "Foreign Key"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:38
+msgid "Edit Translation"
+msgstr ""
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:39
+msgid "Delete Translation"
+msgstr ""
+
+#: View/Exploits/add.ctp:8
+msgid "Add Exploit"
+msgstr ""
+
+#: View/Exploits/edit.ctp:8
+msgid "Edit Exploit"
+msgstr ""
+
+#: View/Exploits/index.ctp:10
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:7
+msgid "Exploits"
+msgstr ""
+
+#: View/Exploits/index.ctp:27
+#: View/Exploits/view.ctp:70
+#: View/ExploitsTutorials/edit.ctp:9
+#: View/ExploitsTutorials/index.ctp:49
+#: View/ExploitsTutorials/view.ctp:10
+#: View/Games/index.ctp:29
+#: View/Games/view.ctp:77
+#: View/Roles/index.ctp:27
+#: View/Roles/view.ctp:67
+#: View/Segments/index.ctp:37
+#: View/Segments/view.ctp:97
+#: View/Times/index.ctp:39
+#: View/Tutorials/index.ctp:49
+#: View/Tutorials/view.ctp:97;141
+#: View/Users/index.ctp:37
+#: View/Users/view.ctp:90
+#: View/Versions/index.ctp:33
+#: View/Versions/view.ctp:72
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Exploits/index.ctp:45
+#: View/ExploitsTutorials/index.ctp:67
+#: View/Games/index.ctp:47
+#: View/Roles/index.ctp:45
+#: View/Segments/index.ctp:55
+#: View/Times/index.ctp:57
+#: View/Tutorials/index.ctp:67
+#: View/Users/index.ctp:55
+#: View/Versions/index.ctp:51
+msgid "Previous"
+msgstr ""
+
+#: View/Exploits/index.ctp:47
+#: View/ExploitsTutorials/index.ctp:69
+#: View/Games/index.ctp:49
+#: View/Roles/index.ctp:47
+#: View/Segments/index.ctp:57
+#: View/Times/index.ctp:59
+#: View/Tutorials/index.ctp:69
+#: View/Users/index.ctp:57
+#: View/Versions/index.ctp:53
+msgid "Next"
+msgstr ""
+
+#: View/Exploits/view.ctp:10
+#: View/ExploitsTutorials/view.ctp:38
+msgid "Exploit"
+msgstr ""
+
+#: View/Exploits/view.ctp:20;48
+#: View/Games/view.ctp:20;53
+#: View/Roles/view.ctp:20
+#: View/Segments/view.ctp:20
+#: View/Tutorials/view.ctp:20;73;125
+#: View/Users/view.ctp:68
+#: View/Versions/view.ctp:25;48
+msgid "Name"
+msgstr ""
+
+#: View/Exploits/view.ctp:25
+#: View/Segments/view.ctp:25
+#: View/Tutorials/view.ctp:74;126
+msgid "Details"
+msgstr ""
+
+#: View/Exploits/view.ctp:39
+#: View/Games/view.ctp:44
+#: View/Users/view.ctp:59
+#: View/Versions/view.ctp:39
+msgid "Related Tutorials"
+msgstr ""
+
+#: View/Exploits/view.ctp:49
+#: View/Games/view.ctp:54
+#: View/Tutorials/view.ctp:25
+#: View/Users/view.ctp:69
+#: View/Versions/view.ctp:49
+msgid "Rules"
+msgstr ""
+
+#: View/Exploits/view.ctp:50
+#: View/Games/view.ctp:56
+#: View/Segments/view.ctp:75
+#: View/Tutorials/view.ctp:76
+#: View/Users/view.ctp:70
+#: View/Versions/view.ctp:51
+msgid "User Id"
+msgstr ""
+
+#: View/Exploits/view.ctp:51
+#: View/Games/view.ctp:57
+#: View/Roles/view.ctp:47
+#: View/Segments/view.ctp:45;77
+#: View/Times/view.ctp:40
+#: View/Tutorials/view.ctp:45;77
+#: View/Users/view.ctp:40;71
+#: View/Versions/view.ctp:52
+msgid "Created"
+msgstr ""
+
+#: View/Exploits/view.ctp:52
+#: View/Games/view.ctp:58
+#: View/Roles/view.ctp:48
+#: View/Segments/view.ctp:50;78
+#: View/Times/view.ctp:45
+#: View/Tutorials/view.ctp:50;78
+#: View/Users/view.ctp:45;72
+#: View/Versions/view.ctp:53
+msgid "Modified"
+msgstr ""
+
+#: View/Exploits/view.ctp:82
+#: View/ExploitsTutorials/add.ctp:13
+#: View/ExploitsTutorials/edit.ctp:14
+#: View/ExploitsTutorials/index.ctp:13
+#: View/ExploitsTutorials/view.ctp:16
+#: View/Games/view.ctp:89
+#: View/Themed/Cakestrap/Elements/menu/side_menu - backup.ctp:8
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:71
+#: View/Users/view.ctp:102
+#: View/Versions/view.ctp:84
+msgid "New Tutorial"
+msgstr ""
+
+#: View/ExploitsTutorials/add.ctp:9
+#: View/ExploitsTutorials/edit.ctp:10
+#: View/ExploitsTutorials/view.ctp:11
+msgid "List Exploits Tutorials"
+msgstr ""
+
+#: View/ExploitsTutorials/add.ctp:10
+#: View/ExploitsTutorials/edit.ctp:11
+#: View/ExploitsTutorials/index.ctp:10
+#: View/ExploitsTutorials/view.ctp:13
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:9
+msgid "List Exploits"
+msgstr ""
+
+#: View/ExploitsTutorials/add.ctp:11
+#: View/ExploitsTutorials/edit.ctp:12
+#: View/ExploitsTutorials/index.ctp:11
+#: View/ExploitsTutorials/view.ctp:14
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:11
+#: View/Tutorials/view.ctp:153
+msgid "New Exploit"
+msgstr ""
+
+#: View/ExploitsTutorials/add.ctp:12
+#: View/ExploitsTutorials/edit.ctp:13
+#: View/ExploitsTutorials/index.ctp:12
+#: View/ExploitsTutorials/view.ctp:15
+#: View/Themed/Cakestrap/Elements/menu/side_menu - backup.ctp:7
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:69
+msgid "List Tutorials"
+msgstr ""
+
+#: View/ExploitsTutorials/add.ctp:22
+msgid "Add Exploits Tutorial"
+msgstr ""
+
+#: View/ExploitsTutorials/edit.ctp:23
+#: View/ExploitsTutorials/view.ctp:9
+msgid "Edit Exploits Tutorial"
+msgstr ""
+
+#: View/ExploitsTutorials/index.ctp:9
+#: View/ExploitsTutorials/view.ctp:12
+msgid "New Exploits Tutorial"
+msgstr ""
+
+#: View/ExploitsTutorials/index.ctp:24
+msgid "Exploits Tutorials"
+msgstr ""
+
+#: View/ExploitsTutorials/view.ctp:10
+msgid "Delete Exploits Tutorial"
+msgstr ""
+
+#: View/ExploitsTutorials/view.ctp:28
+msgid "Exploits Tutorial"
+msgstr ""
+
+#: View/ExploitsTutorials/view.ctp:43
+#: View/Segments/view.ctp:35
+#: View/Tutorials/view.ctp:10
+msgid "Tutorial"
+msgstr ""
+
+#: View/Games/add.ctp:8
+msgid "Add Game"
+msgstr ""
+
+#: View/Games/edit.ctp:8
+msgid "Edit Game"
+msgstr ""
+
+#: View/Games/edit.ctp:32
+msgid "This game has no image."
+msgstr ""
+
+#: View/Games/index.ctp:10
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:17
+msgid "Games"
+msgstr ""
+
+#: View/Games/view.ctp:10
+#: View/Tutorials/view.ctp:30
+#: View/Versions/view.ctp:20
+msgid "Game"
+msgstr ""
+
+#: View/Games/view.ctp:25
+msgid "Platform"
+msgstr ""
+
+#: View/Games/view.ctp:30
+msgid "Image"
+msgstr ""
+
+#: View/Games/view.ctp:55
+msgid "Game Id"
+msgstr ""
+
+#: View/Roles/add.ctp:8
+msgid "Add Role"
+msgstr ""
+
+#: View/Roles/edit.ctp:8
+msgid "Edit Role"
+msgstr ""
+
+#: View/Roles/index.ctp:10
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:37
+msgid "Roles"
+msgstr ""
+
+#: View/Roles/view.ctp:10
+#: View/Users/view.ctp:30
+msgid "Role"
+msgstr ""
+
+#: View/Roles/view.ctp:34
+msgid "Related Users"
+msgstr ""
+
+#: View/Roles/view.ctp:43
+#: View/Users/view.ctp:20
+msgid "Username"
+msgstr ""
+
+#: View/Roles/view.ctp:44
+#: View/Users/view.ctp:25
+msgid "Password"
+msgstr ""
+
+#: View/Roles/view.ctp:45
+msgid "Role Id"
+msgstr ""
+
+#: View/Roles/view.ctp:46
+#: View/Users/view.ctp:35
+msgid "Email"
+msgstr ""
+
+#: View/Roles/view.ctp:79
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:81
+msgid "New User"
+msgstr ""
+
+#: View/Segments/add.ctp:8
+msgid "Add Segment"
+msgstr ""
+
+#: View/Segments/edit.ctp:8
+msgid "Edit Segment"
+msgstr ""
+
+#: View/Segments/index.ctp:10
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:47
+msgid "Segments"
+msgstr ""
+
+#: View/Segments/view.ctp:10
+#: View/Times/view.ctp:35
+msgid "Segment"
+msgstr ""
+
+#: View/Segments/view.ctp:30
+msgid "Goodtime"
+msgstr ""
+
+#: View/Segments/view.ctp:40
+#: View/Times/view.ctp:30
+#: View/Tutorials/view.ctp:40
+#: View/Users/view.ctp:10
+msgid "User"
+msgstr ""
+
+#: View/Segments/view.ctp:64
+msgid "Related Times"
+msgstr ""
+
+#: View/Segments/view.ctp:73
+#: View/Times/view.ctp:10;20
+msgid "Time"
+msgstr ""
+
+#: View/Segments/view.ctp:74
+#: View/Times/view.ctp:25
+msgid "Commentary"
+msgstr ""
+
+#: View/Segments/view.ctp:76
+msgid "Segment Id"
+msgstr ""
+
+#: View/Segments/view.ctp:109
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:61
+msgid "New Time"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu - backup.ctp:6
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:21
+msgid "New Game"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:19
+msgid "List Games"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:27
+#: View/Versions/index.ctp:10
+msgid "Versions"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:29
+msgid "List Versions"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:31
+msgid "New Version"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:39
+msgid "List Roles"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:41
+msgid "New Role"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:49
+msgid "List Segments"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:51
+#: View/Tutorials/view.ctp:109
+msgid "New Segment"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:57
+#: View/Times/index.ctp:10
+msgid "Times"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:59
+msgid "List Times"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:67
+#: View/Tutorials/index.ctp:10
+msgid "Tutorials"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:77
+#: View/Users/index.ctp:10
+msgid "Users"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:79
+msgid "List Users"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:84
+msgid "Resend confirmation email"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:9
+msgid "Speedrun Breakdown"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:19
+msgid "Hello"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:22
+msgid "Logout"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:26
+#: View/Users/login.ctp:13
+msgid "Login"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:31
+msgid "Register"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:39
+msgid "About"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:48;49
+msgid "Languages"
+msgstr ""
+
+#: View/Times/add.ctp:8
+msgid "Add Time"
+msgstr ""
+
+#: View/Times/edit.ctp:8
+msgid "Edit Time"
+msgstr ""
+
+#: View/Tutorials/add.ctp:8
+msgid "Add Tutorial"
+msgstr ""
+
+#: View/Tutorials/edit.ctp:8
+msgid "Edit Tutorial"
+msgstr ""
+
+#: View/Tutorials/view.ctp:35
+#: View/Versions/view.ctp:10
+msgid "Version"
+msgstr ""
+
+#: View/Tutorials/view.ctp:64
+msgid "Related Segments"
+msgstr ""
+
+#: View/Tutorials/view.ctp:75
+msgid "Tutorial Id"
+msgstr ""
+
+#: View/Tutorials/view.ctp:116
+msgid "Related Exploits"
+msgstr ""
+
+#: View/Users/add.ctp:8
+msgid "Add User"
+msgstr ""
+
+#: View/Users/edit.ctp:8
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/login.ctp:6
+msgid "Please enter your username and password"
+msgstr ""
+
+#: View/Versions/add.ctp:8
+msgid "Add Version"
+msgstr ""
+
+#: View/Versions/edit.ctp:8
+msgid "Edit Version"
+msgstr ""
+
+#: View/Versions/view.ctp:50
+msgid "Version Id"
+msgstr ""
+
+#: Model/Exploit.php:validation for field name;validation for field details
+#: Model/Game.php:validation for field name;validation for field platform
+#: Model/Platform.php:validation for field name
+#: Model/Role.php:validation for field name
+#: Model/Segment.php:validation for field name;validation for field details
+#: Model/Time.php:validation for field commentary
+#: Model/Tutorial.php:validation for field name;validation for field rules
+#: Model/User.php:validation for field username;validation for field password
+#: Model/Version.php:validation for field name
+msgid "notBlank"
+msgstr ""
+
+#: Model/ExploitsTutorial.php:validation for field exploit_id;validation for field tutorial_id
+#: Model/Segment.php:validation for field goodtime;validation for field tutorial_id;validation for field user_id
+#: Model/Time.php:validation for field time;validation for field user_id;validation for field segment_id
+#: Model/Tutorial.php:validation for field version_id;validation for field user_id
+#: Model/User.php:validation for field role_id
+#: Model/Version.php:validation for field game_id
+msgid "numeric"
+msgstr ""
+
+#: Model/Game.php:validation for field image
+msgid "Something went wrong with the file upload."
+msgstr ""
+
+#: Model/Game.php:validation for field image
+msgid "Invalid file, only images are allowed."
+msgstr ""
+
+#: Model/Game.php:validation for field image
+msgid "Image must be less than 1MB."
+msgstr ""
+
+#: Model/Game.php:validation for field image
+msgid "Something went wrong processing your file."
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "email"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:validation for field locale
+msgid "Please enter a Locale"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:validation for field model
+msgid "Please enter a Model"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:validation for field foreign_key
+msgid "Please enter a Foreign Key"
+msgstr ""
+
+#: Plugin/i18n/Model/Translation.php:validation for field field
+msgid "Please enter a Field"
+msgstr ""
+
