@@ -91,12 +91,12 @@ class DATABASE_CONFIG {
                 //'encoding' => 'utf8',
         );
 	public function __construct() {
-            debug(getenv("OPENSHIFT_MYSQL_DB_HOST"));
             if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
+                    debug(getenv("OPENSHIFT_MYSQL_DB_HOST"));
 	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
 	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
-	           $this->default['login']      = getenv("OPENSHIFT_MYSQL_DB_USERNAME");
-	           $this->default['password']   = getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
+	           $this->default['login']      = adminFjLwtJr;
+	           $this->default['password']   = IaanyVHlMExF;
 	           $this->default['database']   = getenv("OPENSHIFT_APP_NAME");
 	       else:
 	           $this->default['host']       = 'localhost';
