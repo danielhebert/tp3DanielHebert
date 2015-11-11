@@ -300,14 +300,30 @@ msgstr ""
 #: View/Times/index.ctp:39
 #: View/Tutorials/index.ctp:49
 #: View/Tutorials/view.ctp:97;141
-#: View/Users/index.ctp:37
-#: View/Users/view.ctp:90
+#: View/Users/index.ctp:39
+#: View/Users/view.ctp:95
 #: View/Versions/index.ctp:33
 #: View/Versions/view.ctp:72
 msgid "Delete"
 msgstr ""
 
 #: Plugin/i18n/View/Translations/admin_edit_multi.ctp:22
+#: View/Exploits/add.ctp:23
+#: View/Exploits/edit.ctp:26
+#: View/Games/add.ctp:27
+#: View/Games/edit.ctp:36
+#: View/Roles/add.ctp:20
+#: View/Roles/edit.ctp:23
+#: View/Segments/add.ctp:29
+#: View/Segments/edit.ctp:32
+#: View/Times/add.ctp:26
+#: View/Times/edit.ctp:29
+#: View/Tutorials/add.ctp:32
+#: View/Tutorials/edit.ctp:35
+#: View/Users/add.ctp:32
+#: View/Users/edit.ctp:30
+#: View/Versions/add.ctp:23
+#: View/Versions/edit.ctp:26
 msgid "Submit"
 msgstr ""
 
@@ -323,7 +339,7 @@ msgstr ""
 #: View/Segments/index.ctp:48
 #: View/Times/index.ctp:50
 #: View/Tutorials/index.ctp:60
-#: View/Users/index.ctp:48
+#: View/Users/index.ctp:50
 #: View/Versions/index.ctp:44
 msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
 msgstr ""
@@ -363,8 +379,8 @@ msgstr ""
 #: View/Times/index.ctp:21
 #: View/Tutorials/index.ctp:23
 #: View/Tutorials/view.ctp:79;127
-#: View/Users/index.ctp:21
-#: View/Users/view.ctp:73
+#: View/Users/index.ctp:22
+#: View/Users/view.ctp:78
 #: View/Versions/index.ctp:19
 #: View/Versions/view.ctp:54
 msgid "Actions"
@@ -383,8 +399,8 @@ msgstr ""
 #: View/Times/index.ctp:37
 #: View/Tutorials/index.ctp:47
 #: View/Tutorials/view.ctp:95;139
-#: View/Users/index.ctp:35
-#: View/Users/view.ctp:88
+#: View/Users/index.ctp:37
+#: View/Users/view.ctp:93
 #: View/Versions/index.ctp:31
 #: View/Versions/view.ctp:70
 msgid "View"
@@ -403,8 +419,8 @@ msgstr ""
 #: View/Times/index.ctp:38
 #: View/Tutorials/index.ctp:48
 #: View/Tutorials/view.ctp:96;140
-#: View/Users/index.ctp:36
-#: View/Users/view.ctp:89
+#: View/Users/index.ctp:38
+#: View/Users/view.ctp:94
 #: View/Versions/index.ctp:32
 #: View/Versions/view.ctp:71
 msgid "Edit"
@@ -431,7 +447,7 @@ msgstr ""
 #: View/Segments/view.ctp:15;72
 #: View/Times/view.ctp:15
 #: View/Tutorials/view.ctp:15;72;124
-#: View/Users/view.ctp:15;67
+#: View/Users/view.ctp:15;72
 #: View/Versions/view.ctp:15;47
 msgid "Id"
 msgstr ""
@@ -483,8 +499,8 @@ msgstr ""
 #: View/Times/index.ctp:39
 #: View/Tutorials/index.ctp:49
 #: View/Tutorials/view.ctp:97;141
-#: View/Users/index.ctp:37
-#: View/Users/view.ctp:90
+#: View/Users/index.ctp:39
+#: View/Users/view.ctp:95
 #: View/Versions/index.ctp:33
 #: View/Versions/view.ctp:72
 msgid "Are you sure you want to delete # %s?"
@@ -497,7 +513,7 @@ msgstr ""
 #: View/Segments/index.ctp:55
 #: View/Times/index.ctp:57
 #: View/Tutorials/index.ctp:67
-#: View/Users/index.ctp:55
+#: View/Users/index.ctp:57
 #: View/Versions/index.ctp:51
 msgid "Previous"
 msgstr ""
@@ -509,7 +525,7 @@ msgstr ""
 #: View/Segments/index.ctp:57
 #: View/Times/index.ctp:59
 #: View/Tutorials/index.ctp:69
-#: View/Users/index.ctp:57
+#: View/Users/index.ctp:59
 #: View/Versions/index.ctp:53
 msgid "Next"
 msgstr ""
@@ -524,7 +540,7 @@ msgstr ""
 #: View/Roles/view.ctp:20
 #: View/Segments/view.ctp:20
 #: View/Tutorials/view.ctp:20;73;125
-#: View/Users/view.ctp:68
+#: View/Users/view.ctp:73
 #: View/Versions/view.ctp:25;48
 msgid "Name"
 msgstr ""
@@ -537,7 +553,7 @@ msgstr ""
 
 #: View/Exploits/view.ctp:39
 #: View/Games/view.ctp:44
-#: View/Users/view.ctp:59
+#: View/Users/view.ctp:64
 #: View/Versions/view.ctp:39
 msgid "Related Tutorials"
 msgstr ""
@@ -545,7 +561,7 @@ msgstr ""
 #: View/Exploits/view.ctp:49
 #: View/Games/view.ctp:54
 #: View/Tutorials/view.ctp:25
-#: View/Users/view.ctp:69
+#: View/Users/view.ctp:74
 #: View/Versions/view.ctp:49
 msgid "Rules"
 msgstr ""
@@ -554,7 +570,7 @@ msgstr ""
 #: View/Games/view.ctp:56
 #: View/Segments/view.ctp:75
 #: View/Tutorials/view.ctp:76
-#: View/Users/view.ctp:70
+#: View/Users/view.ctp:75
 #: View/Versions/view.ctp:51
 msgid "User Id"
 msgstr ""
@@ -565,7 +581,7 @@ msgstr ""
 #: View/Segments/view.ctp:45;77
 #: View/Times/view.ctp:40
 #: View/Tutorials/view.ctp:45;77
-#: View/Users/view.ctp:40;71
+#: View/Users/view.ctp:40;76
 #: View/Versions/view.ctp:52
 msgid "Created"
 msgstr ""
@@ -576,7 +592,7 @@ msgstr ""
 #: View/Segments/view.ctp:50;78
 #: View/Times/view.ctp:45
 #: View/Tutorials/view.ctp:50;78
-#: View/Users/view.ctp:45;72
+#: View/Users/view.ctp:45;77
 #: View/Versions/view.ctp:53
 msgid "Modified"
 msgstr ""
@@ -589,7 +605,7 @@ msgstr ""
 #: View/Games/view.ctp:89
 #: View/Themed/Cakestrap/Elements/menu/side_menu - backup.ctp:8
 #: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:71
-#: View/Users/view.ctp:102
+#: View/Users/view.ctp:107
 #: View/Versions/view.ctp:84
 msgid "New Tutorial"
 msgstr ""
@@ -870,7 +886,7 @@ msgid "Logout"
 msgstr ""
 
 #: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:26
-#: View/Users/login.ctp:13
+#: View/Users/login.ctp:15
 msgid "Login"
 msgstr ""
 
@@ -929,6 +945,10 @@ msgstr ""
 
 #: View/Users/login.ctp:6
 msgid "Please enter your username and password"
+msgstr ""
+
+#: View/Users/view.ctp:51
+msgid "Active"
 msgstr ""
 
 #: View/Versions/add.ctp:8

@@ -105,7 +105,8 @@ class DATABASE_CONFIG {
 	           $this->default['login']      = 'root';
 	           $this->default['password']   = 'mysql';
 	           $this->default['database']   = 'speedrunbreakdown';
-	           $this->default['datasource']   = 'Database/Mysql';
+	           $this->default['datasource'] = 'Database/Mysql';
+	           $this->test['datasource']    = 'Database/Mysql';
 	       endif;
 	}
 }
