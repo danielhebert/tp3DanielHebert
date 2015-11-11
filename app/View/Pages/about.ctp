@@ -21,7 +21,7 @@
 				<h3 class="panel-title">Concept</h3>
 			</div>
 			<div class="panel-body">
-                            <p>SpeedrunBreakdown agit un peu comme un wiki et un site de classement. Un utilisateur confirmé peut créer un tutoriel, qu'il divisera par la suite en segments. 
+                            <p>SpeedrunBreakdown est en quelque sorte un wiki combiné à un site de classement. Un utilisateur confirmé peut créer un tutoriel, qu'il divisera par la suite en segments. 
                             N'importe quel utilisateur peut ensuite soumettre un temps à ces segments, soit le temps mis pour compléter cette section du tutoriel.
                             </p>
                             <p>
