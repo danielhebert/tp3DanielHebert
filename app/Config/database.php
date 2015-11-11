@@ -69,6 +69,7 @@
 
 class DATABASE_CONFIG {
         public $default = array(
+                'datasource' => 'Database/Mysql',
                 'persistent' => false,
                 'host'       => '',
                 'port'       => '',
@@ -90,6 +91,7 @@ class DATABASE_CONFIG {
                 //'encoding' => 'utf8',
         );
 	public function __construct() {
+            $debug(getenv("OPENSHIFT_MYSQL_DB_HOST"));
             if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
 	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
 	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
