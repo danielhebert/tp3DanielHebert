@@ -1,3 +1,7 @@
+<div class="container">
+	
+</div>
+<br />
 <nav class="navbar navbar-default" role="navigation">
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -6,7 +10,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button><!-- /.navbar-toggle -->
-		<?php echo $this->Html->Link(__("Speedrun Breakdown"), array(
+		<?php echo $this->Html->Link(__("Home"), array(
                                             'controller' => 'games',
                                             'action' => 'index'),
                                             array('class' => 'navbar-brand')); ?>

@@ -29,7 +29,11 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Game'); ?></strong></td>
 		<td>
-			<?php echo $this->Html->link($tutorial['Version']['Game']['name'], array('controller' => 'games', 'action' => 'view', $tutorial['Version']['Game']['id'])); ?>
+			<?php 
+			if($tutorial['Version']['game_id'] != null) { 
+				echo $this->Html->link($tutorial['Version']['Game']['name'], array('controller' => 'games', 'action' => 'view', $tutorial['Version']['Game']['id']));
+				}
+			?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Version'); ?></strong></td>
@@ -44,12 +48,14 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
 		<td>
-			<?php echo h($tutorial['Tutorial']['created']); ?>
+			<?php $created = $tutorial['Tutorial']['created'];
+			echo is_numeric($created) ? date("Y-m-d", $created) : h($created); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
 		<td>
-			<?php echo h($tutorial['Tutorial']['modified']); ?>
+			<?php $modified = $tutorial['Tutorial']['modified'];
+			echo is_numeric($modified) ? date("Y-m-d", $modified) : h($modified); ?>
 			&nbsp;
 		</td>
 </tr>					</tbody>
@@ -74,8 +80,6 @@
 		<th><?php echo __('Details'); ?></th>
 		<th><?php echo __('Tutorial Id'); ?></th>
 		<th><?php echo __('User Id'); ?></th>
-		<th><?php echo __('Created'); ?></th>
-		<th><?php echo __('Modified'); ?></th>
 									<th class="actions"><?php echo __('Actions'); ?></th>
 								</tr>
 							</thead>
@@ -89,8 +93,6 @@
 			<td><?php echo $segment['details']; ?></td>
 			<td><?php echo $segment['tutorial_id']; ?></td>
 			<td><?php echo $segment['user_id']; ?></td>
-			<td><?php echo $segment['created']; ?></td>
-			<td><?php echo $segment['modified']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'segments', 'action' => 'view', $segment['id']), array('class' => 'btn btn-default btn-xs')); ?>
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'segments', 'action' => 'edit', $segment['id']), array('class' => 'btn btn-default btn-xs')); ?>

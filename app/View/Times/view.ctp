@@ -39,12 +39,14 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
 		<td>
-			<?php echo h($time['Time']['created']); ?>
+			<?php $created = $time['Time']['created'];
+			echo is_numeric($created) ? date("Y-m-d", $created) : h($created); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
 		<td>
-			<?php echo h($time['Time']['modified']); ?>
+			<?php $modified = $time['Time']['modified'];
+			echo is_numeric($modified) ? date("Y-m-d", $modified) : h($modified); ?>
 			&nbsp;
 		</td>
 </tr>					</tbody>

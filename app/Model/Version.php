@@ -80,5 +80,12 @@ class Version extends AppModel {
 			'counterQuery' => ''
 		)
 	);
+	
+	public function getVersionsByGame($game_id = null){
+		return $this->find('list', array(
+			'conditions' => array('game_id' => $game_id),
+			'recursive' => -1
+		));
+	}
 
 }

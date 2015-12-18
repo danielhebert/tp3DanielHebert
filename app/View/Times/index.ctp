@@ -31,8 +31,10 @@
 		<td>
 			<?php echo $this->Html->link($time['Segment']['name'], array('controller' => 'segments', 'action' => 'view', $time['Segment']['id'])); ?>
 		</td>
-		<td><?php echo h($time['Time']['created']); ?>&nbsp;</td>
-		<td><?php echo h($time['Time']['modified']); ?>&nbsp;</td>
+					<td><?php $created = $time['Time']['created'];
+			echo is_numeric($created) ? date("Y-m-d", $created) : h($created); ?>&nbsp;</td>
+					<td><?php $modified = $time['Time']['modified'];
+			echo is_numeric($modified) ? date("Y-m-d", $modified) : h($modified); ?>&nbsp;</td>	
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $time['Time']['id']), array('class' => 'btn btn-default btn-xs')); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $time['Time']['id']), array('class' => 'btn btn-default btn-xs')); ?>

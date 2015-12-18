@@ -51,6 +51,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<div id="main-container">
 		
 			<div id="header" class="container">
+			<?php echo $this->Html->image('srb.svg', array('escape' => false, 'class' => 'center-block', 'width' => '35%', 'url' => array('controller' => 'pages', 'action' => 'about', "#" => "logo"))); ?>
 				<?php echo $this->element('menu/top_menu'); ?>
 			</div><!-- /#header .container -->
 			

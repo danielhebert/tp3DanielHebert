@@ -68,7 +68,9 @@ class TutorialsController extends AppController {
 			}
 		}
 		
-        $versions = array('Choisir une version');
+		reset($games);
+		$premier = key($games);
+        $versions = $this->Tutorial->Version->getVersionsByGame($premier);
 		
 		$users = $this->Tutorial->User->find('list');
 		$exploits = $this->Tutorial->Exploit->find('list');
@@ -108,7 +110,7 @@ class TutorialsController extends AppController {
 			}
 		}
 		
-		$versions = $this->Tutorial->Version->find('list', array('conditions' => array('Version.game_id' => $this->request->data['Version']['game_id'])));
+		$versions = $this->Tutorial->Version->getVersionsByGame($this->request->data['Version']['game_id']);
 	
 		$users = $this->Tutorial->User->find('list');
 		$exploits = $this->Tutorial->Exploit->find('list');

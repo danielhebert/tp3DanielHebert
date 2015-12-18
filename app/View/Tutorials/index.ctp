@@ -28,7 +28,11 @@
 	<tr>
 		<td><?php echo h($tutorial['Tutorial']['name']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($tutorial['Version']['Game']['name'], array('controller' => 'games', 'action' => 'view', $tutorial['Version']['Game']['id'])); ?>
+			<?php 
+			if($tutorial['Version']['game_id'] != null) { 
+				echo $this->Html->link($tutorial['Version']['Game']['name'], array('controller' => 'games', 'action' => 'view', $tutorial['Version']['Game']['id']));
+				}
+			?>
 		</td>
 		<td><?php echo h($tutorial['Version']['name']); ?>&nbsp;</td>
 		<td><?php 
@@ -41,8 +45,10 @@
 		<td>
 			<?php echo $this->Html->link($tutorial['User']['username'], array('controller' => 'users', 'action' => 'view', $tutorial['User']['id'])); ?>
 		</td>
-		<td><?php echo h($tutorial['Tutorial']['created']); ?>&nbsp;</td>
-		<td><?php echo h($tutorial['Tutorial']['modified']); ?>&nbsp;</td>
+					<td><?php $created = $tutorial['Tutorial']['created'];
+			echo is_numeric($created) ? date("Y-m-d", $created) : h($created); ?>&nbsp;</td>
+					<td><?php $modified = $tutorial['Tutorial']['modified'];
+			echo is_numeric($modified) ? date("Y-m-d", $modified) : h($modified); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $tutorial['Tutorial']['id']), array('class' => 'btn btn-default btn-xs')); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $tutorial['Tutorial']['id']), array('class' => 'btn btn-default btn-xs')); ?>

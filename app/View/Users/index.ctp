@@ -30,8 +30,10 @@
 			<?php echo $this->Html->link($user['Role']['name'], array('controller' => 'roles', 'action' => 'view', $user['Role']['id'])); ?>
 		</td>
 		<td><?php echo h($user['User']['email']); ?>&nbsp;</td>
-		<td><?php echo h($user['User']['created']); ?>&nbsp;</td>
-		<td><?php echo h($user['User']['modified']); ?>&nbsp;</td>
+					<td><?php $created = $user['User']['created'];
+			echo is_numeric($created) ? date("Y-m-d", $created) : h($created); ?>&nbsp;</td>
+					<td><?php $modified = $user['User']['modified'];
+			echo is_numeric($modified) ? date("Y-m-d", $modified) : h($modified); ?>&nbsp;</td>
 		<td><?php echo h($user['User']['active']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id']), array('class' => 'btn btn-default btn-xs')); ?>

@@ -1,4 +1,5 @@
-<?php $this->Html->script('View/Platforms/onEdit', array('inline' => false)); ?>
+<?php $this->Html->script('View/About/Snap.svg-0.4.1/dist/snap.svg-min.js', array('inline' => false)); ?>
+<?php $this->Html->script('View/About/logo_svg.js', array('inline' => false)); ?>
 <div id="page-container" class="row">
 
 	<?php echo $this->element('menu/side_menu'); ?>
@@ -137,6 +138,14 @@
 				</p>
 			</div>
 		</div>
+	
+		<div>
+			<div id="logoDiv">
+
+			</div>
+			<a name="logo"></a>
+		</div>
+		
 			
 	</div><!-- /#page-content .col-sm-9 -->
 

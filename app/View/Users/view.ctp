@@ -39,12 +39,14 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
 		<td>
-			<?php echo h($user['User']['created']); ?>
+			<?php $created = $user['User']['created'];
+			echo is_numeric($created) ? date("Y-m-d", $created) : h($created); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
 		<td>
-			<?php echo h($user['User']['modified']); ?>
+			<?php $modified = $user['User']['modified'];
+			echo is_numeric($modified) ? date("Y-m-d", $modified) : h($modified); ?>
 			&nbsp;
 		</td>
 </tr>
@@ -73,8 +75,6 @@
 		<th><?php echo __('Name'); ?></th>
 		<th><?php echo __('Rules'); ?></th>
 		<th><?php echo __('User Id'); ?></th>
-		<th><?php echo __('Created'); ?></th>
-		<th><?php echo __('Modified'); ?></th>
 									<th class="actions"><?php echo __('Actions'); ?></th>
 								</tr>
 							</thead>
@@ -87,8 +87,6 @@
 			<td><?php echo $tutorial['name']; ?></td>
 			<td><?php echo $tutorial['rules']; ?></td>
 			<td><?php echo $tutorial['user_id']; ?></td>
-			<td><?php echo $tutorial['created']; ?></td>
-			<td><?php echo $tutorial['modified']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'tutorials', 'action' => 'view', $tutorial['id']), array('class' => 'btn btn-default btn-xs')); ?>
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'tutorials', 'action' => 'edit', $tutorial['id']), array('class' => 'btn btn-default btn-xs')); ?>

@@ -29,8 +29,10 @@
 		<td>
 			<?php echo $this->Html->link($segment['Tutorial']['name'], array('controller' => 'tutorials', 'action' => 'view', $segment['Tutorial']['id'])); ?>
 		</td>
-		<td><?php echo h($segment['Segment']['created']); ?>&nbsp;</td>
-		<td><?php echo h($segment['Segment']['modified']); ?>&nbsp;</td>
+		<td><?php $created = $segment['Segment']['created'];
+echo is_numeric($created) ? date("Y-m-d", $created) : h($created); ?>&nbsp;</td>
+		<td><?php $modified = $segment['Segment']['modified'];
+echo is_numeric($modified) ? date("Y-m-d", $modified) : h($modified); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $segment['Segment']['id']), array('class' => 'btn btn-default btn-xs')); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $segment['Segment']['id']), array('class' => 'btn btn-default btn-xs')); ?>

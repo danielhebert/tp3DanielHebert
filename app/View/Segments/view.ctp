@@ -44,12 +44,14 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
 		<td>
-			<?php echo h($segment['Segment']['created']); ?>
+			<?php $created = $segment['Segment']['created'];
+		echo is_numeric($created) ? date("Y-m-d", $created) : h($created); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
 		<td>
-			<?php echo h($segment['Segment']['modified']); ?>
+			<?php $modified = $segment['Segment']['modified'];
+		echo is_numeric($modified) ? date("Y-m-d", $modified) : h($modified); ?>
 			&nbsp;
 		</td>
 </tr>					</tbody>
@@ -74,8 +76,6 @@
 		<th><?php echo __('Commentary'); ?></th>
 		<th><?php echo __('User Id'); ?></th>
 		<th><?php echo __('Segment Id'); ?></th>
-		<th><?php echo __('Created'); ?></th>
-		<th><?php echo __('Modified'); ?></th>
 									<th class="actions"><?php echo __('Actions'); ?></th>
 								</tr>
 							</thead>
@@ -89,8 +89,6 @@
 			<td><?php echo $time['commentary']; ?></td>
 			<td><?php echo $time['user_id']; ?></td>
 			<td><?php echo $time['segment_id']; ?></td>
-			<td><?php echo $time['created']; ?></td>
-			<td><?php echo $time['modified']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'times', 'action' => 'view', $time['id']), array('class' => 'btn btn-default btn-xs')); ?>
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'times', 'action' => 'edit', $time['id']), array('class' => 'btn btn-default btn-xs')); ?>

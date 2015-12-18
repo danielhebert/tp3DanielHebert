@@ -110,13 +110,12 @@ class VersionsController extends AppController {
 		$this->redirect(array('action' => 'index'));
 	}
 	
-	public function getByGame() {
-		$game_id = $this->request->data['Version']['game_id'];
+	public function getByGame($game_id = null) {
+		if ($game_id == null) {
+			$game_id = $this->request->data['Version']['game_id'];			
+		}
 		 
-		$versions = $this->Version->find('list', array(
-			'conditions' => array('Version.game_id' => $game_id),
-			'recursive' => -1
-		));
+		$versions = $this->Version->getVersionsByGame($game_id);
 		
 		$this->set('versions', $versions);
 		$this->layout = 'ajax';

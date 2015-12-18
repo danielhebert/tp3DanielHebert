@@ -98,7 +98,7 @@ class Game extends AppModel {
 		
 		if (!empty($check['image']['tmp_name'])) {			
 			// check file is uploaded
-			if (!is_uploaded_file($check['image']['tmp_name'])) {
+			if (!$this->is_uploaded_file($check['image']['tmp_name'])) {
 				return FALSE;
 			}
 
@@ -108,7 +108,7 @@ class Game extends AppModel {
 			// @todo check for duplicate filename
 
 			// try moving file
-			if (!move_uploaded_file($check['image']['tmp_name'], $image)) {
+			if (!$this->move_uploaded_file($check['image']['tmp_name'], $image)) {
 				return FALSE;
 
 			// file successfully uploaded
@@ -119,6 +119,14 @@ class Game extends AppModel {
 		}
 		
 		return TRUE;
+	}
+	
+	public function is_uploaded_file($tmp_name) {
+		return is_uploaded_file($tmp_name);
+	}
+
+	public function move_uploaded_file($from, $to) {
+		return move_uploaded_file($from, $to);
 	}
 	
     public function beforeSave($options = array()) {

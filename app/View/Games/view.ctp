@@ -41,40 +41,30 @@
 					
 			<div class="related">
 
-				<h3><?php echo __('Related Tutorials'); ?></h3>
+				<h3><?php echo __('Related Versions'); ?></h3>
 				
-				<?php if (!empty($game['Tutorial'])): ?>
+				<?php if (!empty($game['Version'])): ?>
 					
 					<div class="table-responsive">
 						<table class="table table-striped table-bordered">
 							<thead>
 								<tr>
-											<th><?php echo __('Id'); ?></th>
-		<th><?php echo __('Name'); ?></th>
-		<th><?php echo __('Rules'); ?></th>
-		<th><?php echo __('Game Id'); ?></th>
-		<th><?php echo __('User Id'); ?></th>
-		<th><?php echo __('Created'); ?></th>
-		<th><?php echo __('Modified'); ?></th>
+									<th><?php echo __('Id'); ?></th>
+									<th><?php echo __('Name'); ?></th>
 									<th class="actions"><?php echo __('Actions'); ?></th>
 								</tr>
 							</thead>
 							<tbody>
 									<?php
 										$i = 0;
-										foreach ($game['Tutorial'] as $tutorial): ?>
+										foreach ($game['Version'] as $Version): ?>
 		<tr>
-			<td><?php echo $tutorial['id']; ?></td>
-			<td><?php echo $tutorial['name']; ?></td>
-			<td><?php echo $tutorial['rules']; ?></td>
-			<td><?php echo $tutorial['game_id']; ?></td>
-			<td><?php echo $tutorial['user_id']; ?></td>
-			<td><?php echo $tutorial['created']; ?></td>
-			<td><?php echo $tutorial['modified']; ?></td>
+			<td><?php echo $Version['id']; ?></td>
+			<td><?php echo $Version['name']; ?></td>
 			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'tutorials', 'action' => 'view', $tutorial['id']), array('class' => 'btn btn-default btn-xs')); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'tutorials', 'action' => 'edit', $tutorial['id']), array('class' => 'btn btn-default btn-xs')); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'tutorials', 'action' => 'delete', $tutorial['id']), array('class' => 'btn btn-default btn-xs'), __('Are you sure you want to delete # %s?', $tutorial['id'])); ?>
+				<?php echo $this->Html->link(__('View'), array('controller' => 'Versions', 'action' => 'view', $Version['id']), array('class' => 'btn btn-default btn-xs')); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'Versions', 'action' => 'edit', $Version['id']), array('class' => 'btn btn-default btn-xs')); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'Versions', 'action' => 'delete', $Version['id']), array('class' => 'btn btn-default btn-xs'), __('Are you sure you want to delete # %s?', $Version['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
@@ -86,7 +76,7 @@
 
 				
 				<div class="actions">
-					<?php echo $this->Html->link('<i class="icon-plus icon-white"></i> '.__('New Tutorial'), array('controller' => 'tutorials', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>				</div><!-- /.actions -->
+					<?php echo $this->Html->link('<i class="icon-plus icon-white"></i> '.__('New Version'), array('controller' => 'Versions', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>				</div><!-- /.actions -->
 				
 			</div><!-- /.related -->
 
