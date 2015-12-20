@@ -42,7 +42,7 @@ class EmailConfig {
         'host' => 'ssl://smtp.gmail.com',
         'port' => 465,
         'username' => 'cakeemaildh@gmail.com',
-        'password' => '1234Qwe!',
+        'password' => '1234Qwe!!!a',
         'transport' => 'Smtp'
     );
 
